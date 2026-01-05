@@ -5,6 +5,8 @@ phases:
     runtime-versions:
       nodejs: 20
     commands:
+      - pwd
+      - ls -la
       - echo "Installing dependencies..."
       - npm install
   
